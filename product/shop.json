@@ -1,0 +1,93 @@
+[
+        {
+            "age" : 1,
+            "name" : "Tech Teem",
+            "tipe" : "палки",
+            "description" : "Алюминиевые раздвижные палки с эко рукояткой из пробки, идеальный обхват, сохранение тепла и энергии.",
+            "prise" : "950",
+            "size" : "110-135",
+            "imgeUrl" : "images/product/Tech_Teem.jpg",
+            "status" : true
+        },
+        {
+            "age" : 2,
+            "name" : "Tech Teem",
+            "tipe" : "палки",
+            "description" : "Алюминиевые раздвижные палки для скандинавской ходьбы с эко рукояткой из пробки, идеальный обхват, сохранение тепла и энергии.",
+            "prise" : "950",
+            "size" : "110-135",
+            "imgeUrl" : "images/product/Tech_Teem2.jpg",
+            "status" : true
+        },
+        {
+            "age" : 3,
+            "name" : "Start Cross",
+            "tipe" : "палки",
+            "description" : "Очень легкие палки для активных ходоков. В трубке использовано прочное углеволокно HC (45%) для придания ей жесткости. Палки снабжены удобной пробковой рукояткой Master Cork, а также темляком Fit Race, легко регулируемым. Опора Walking снабжена штырьком из металла твердого сплава.",
+            "prise" : "1 650",
+            "size" : "-",
+            "imgeUrl" : "images/product/Start_Cross.jpg",
+            "status" : true
+        },
+        {
+            "age" : 4,
+            "name" : "Start T2-Tourer",
+            "tipe" : "палки",
+            "description" : "T2-Tourer -легкая и прочная телескопическая палка для ходьбы. Длина палок 80-130 см. Палки снабжены удобной пробковой рукояткой Master Cork, а также темляком Fit Race, легко регулируемым. Опора Walking снабжена штырьком из металла твердого сплава.",
+            "prise" : "2 400",
+            "size" : "-",
+            "imgeUrl" : "images/product/Start_T2-Tourer.jpg",
+            "status" : true
+        },
+        {
+            "age" : 5,
+            "name" : "Master Cork",
+            "tipe" : "рукоятка",
+            "description" : "Легкая и прочная пробковая рукоятка Start Master Cork580",
+            "prise" : "580",
+            "size" : "-",
+            "imgeUrl" : "images/product/Master_Cork.jpg",
+            "status" : true
+        },
+        {
+            "age" : 6,
+            "name" : "Start Fit Sport",
+            "tipe" : "темляк",
+            "description" : "Темляк \"капкан\" для рукоятки Master Cork",
+            "prise" : "500",
+            "size" : "-",
+            "imgeUrl" : "images/product/Start_Fit_Sport.jpg",
+            "status" : true
+        },
+        {
+            "age" : 7,
+            "name" : "Start Classic",
+            "tipe" : "темляк",
+            "description" : "Базовый темляк ,в котором имеется расширенная часть.",
+            "prise" : "380",
+            "size" : "-",
+            "imgeUrl" : "images/product/Start_Classic.jpg",
+            "status" : true
+        },
+        {
+            "age" : 8,
+            "name" : "Start",
+            "tipe" : "лапка",
+            "description" : "Резиновая лапка для ходьбы с палками по асфальту",
+            "prise" : "210",
+            "size" : "-",
+            "imgeUrl" : "images/product/Start.jpg",
+            "status" : true
+        },
+        {
+            "age" : 8,
+            "name" : "Start",
+            "tipe" : "лапка",
+            "description" : "Опора Walking со штырьком из металла твердого сплава для передвижения на лыжероллерах, а так же для ходьбы с палками",
+            "prise" : "500",
+            "size" : "-",
+            "imgeUrl" : "images/product/Start2.jpg",
+            "status" : true
+        }
+
+]

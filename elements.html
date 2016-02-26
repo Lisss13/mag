@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8" />
+<html lang="ru" ng-app="sportShop">
+<head>
+    <title>Статьи</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="assets/js/controllers.js"></script>
+</head>
+<body class="" ng-controller="shopCtrl">
+
+    <!-- Page Wrapper -->
+    <div  id="page-wrapper">
+        <section class="wrapper style5">
+            <div class="inner">
+            <!-- Header -->
+                <header id="header">
+                    <h1> {{ title }} </h1>
+                    <nav id="nav">
+                        <ul>
+                            <li class="special">
+                                <a href="#menu" class="menuToggle"><span>Меню</span></a>
+                                <div id="menu">
+                                    <ul>
+                                        <li><a href="index.html">домашняя страница</a></li>
+                                        <li><a href="generic.html">cтатьи</a></li>
+                                        <li><a href="elements.html">магазин</a></li>
+                                        <!--<li><a href="#">Sign Up</a></li>-->
+                                        <!--<li><a href="#">Log In</a></li>-->
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <!-- Input -->
+                <center><h2>Магазин</h2></center>
+                <section>
+                    <h4>Введите название товара</h4>
+                        <div class="row uniform">
+                            <div class="6u 12u$(xsmall)">
+                                <input name="demo-name" id="demo-name" value="" placeholder="товар" type="text" ng-model="find">
+                            </div>
+                            <!-- поиск товаров по категориям -->
+                            <!-- <div class="6u$ 12u$(xsmall)">
+                                <div class="select-wrapper">
+                                    <select name="категории" id="demo-category">
+                                        <option value="1">какой-то товар</option>
+                                        <option value="1">какой-то товар</option>
+                                        <option value="1">какой-то товар</option>
+                                        <option value="1">какой-то товар</option>
+                                    </select>
+                                </div>
+                            </div> -->
+                        </div>
+                </section>
+                <h1></h1>
+                <ul class="features">
+                    <li ng-repeat="phone in phones | filter:find">
+                        <span class="image left">
+                                <img ng-src="{{phone.imgeUrl}}" alt=""/>
+                        </span>
+                        <h3> {{ phone.name }} </h3>
+                        <p> {{ phone.description }} <br/>
+                        		Ценна: {{ phone.size }} руб.<br/>
+                        		Размер: {{ phone.prise }} </p>
+                    </li>
+        </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <!--<ul class="icons">-->
+        <!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+        <!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+        <!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+        <!--<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+        <!--<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>-->
+        <!--</ul>-->
+        <ul class="copyright">
+            <li>&copy; yii2</li>
+            <li>Сайт сделан Мироновым Арсением</li>
+        </ul>
+    </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
