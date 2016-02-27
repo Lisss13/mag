@@ -11,7 +11,4 @@ var sportShop = angular.module('sportShop', []);
         $scope.phones = data;
     });
 
-    var date = new Date;
-
-    $scope.today = date;
 }]);
