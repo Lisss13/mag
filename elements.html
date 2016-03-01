@@ -19,7 +19,7 @@
             <div class="inner">
             <!-- Header -->
                 <header id="header">
-                    <h1> {{ title }} </h1>
+                    <h1> скандинавская ходьба </h1>
                     <nav id="nav">
                         <ul>
                             <li class="special">
@@ -54,14 +54,14 @@
                 </section>
                 <h1></h1>
                 <ul class="features">
-                    <li ng-repeat="phone in phones | filter:find">
+                    <li ng-repeat="stick in phones | filter:find">
                         <span class="image left">
-                                <img ng-src="{{phone.imgeUrl}}" alt=""/>
+                                <img ng-src="{{stick.imgeUrl}}" alt=""/>
                         </span>
-                        <h4> {{ phone.name }} </h4>
-                        <p> {{ phone.description }} <br/>
-                                Размер: {{ phone.size }} <br/>
-                        		<h4> Цена: {{ phone.prise }} руб. </h4></p>
+                        <h4> {{ stick.name }} </h4>
+                        <p> {{ stick.description }} <br/>
+                                Размер: {{ stick.size }} <br/>
+                        		<h4> Цена: {{ stick.prise }} руб. </h4></p>
                     </li>
                 </ul>
         </section>
