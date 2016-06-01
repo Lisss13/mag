@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8" xmlns="http://www.w3.org/1999/html"/>
+<html lang="ru" ng-app="sportShop">
+<head>
+    <title>Магазин</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css"/><![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="../assets/js/controllers.js"></script>
+    <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="http://vk.com/js/api/share.js?93" charset="utf-8"></script>
+</head>
+<body class="" ng-controller="shopCtrl">
+
+    <!-- Page Wrapper -->
+    <div  id="page-wrapper">
+        <section class="wrapper style5">
+            <div class="inner">
+            <!-- Header -->
+                <header id="header">
+                    <h1> скандинавская ходьба </h1>
+                    <nav id="nav">
+                        <ul>
+                            <li class="special">
+                                <a href="#menu" class="menuToggle"><span>Меню</span></a>
+                                <div id="menu">
+                                    <ul>
+                                        <li><a href="index.html">домашняя страница</a></li>
+                                        <li><a href="generic.html">cтатьи</a></li>
+                                        <li><a href="elements.html">магазин</a></li>
+                                        <li><a href="contacts.html">контакты</a></li>
+                                        <!--<li><a href="#">Sign Up</a></li>-->
+                                        <!--<li><a href="#">Log In</a></li>-->
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <!-- Input -->
+                <center><h2>Магазин</h2></center>
+                <section>
+                    <div class="row uniform">
+                        <div class="6u 12u$(xsmall)">
+                            <h3>Введите название товара</h3>
+                        </div>
+                        <div class="6u$ 12u$(xsmall)">
+                            <input name="demo-name" id="demo-name" value="" placeholder="товар" type="text" ng-model="find">
+                            <!--<a href="contacts.html"><h3>Контакты</h3></a>-->
+                        </div>
+                    </div>
+                </section>
+                <h1></h1>
+                <ul class="features">
+                    <li ng-repeat="stick in phones | filter:find">
+                        <span class="image left">
+                                <img ng-src="{{stick.imgeUrl}}" alt=""/>
+                        </span>
+                        <h4> {{ stick.name }} </h4>
+                        <p> {{ stick.description }} <br/>
+                                Размер: {{ stick.size }} <br/>
+                        		<h4> Цена: {{ stick.prise }} руб.
+                                    <script type="text/javascript"><!--
+                                    document.write(VK.Share.button(false,{type: "link_noicon", text: "Получить скидку 15%"}));
+                                    --></script>  </h4> </p>
+                    </li>
+                </ul>
+        </section>
+
+
+    <!-- Footer -->
+        <footer id="footer">
+            <section>
+                <h4 id="mycontacts">Контакты:</h4>
+                <div class="row">
+                    <div class="6u 12u$(medium)">
+                        <h5>Мы находимся</h5>
+                        Mетро Пионерская<br/>
+                        тел. 8(812)9885099<br/>
+                        тел. 89500367062<br/>
+                        Группа в <a href="https://vk.com/nordicsticks"> <i class="fa fa-vk fa-2x"></i> </a>
+                    </div>
+                    <div class="6u$ 12u$(medium)">
+                        <h5>На карте</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.1384553234602!2d30.285286115870772!3d60.012779063077886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963441b071e859%3A0xb9346e0aec9ef854!2z0LDQuy4g0JrQvtGC0LXQu9GM0L3QuNC60L7QstCwLCA2LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTk3MzQx!5e0!3m2!1sru!2sru!4v1456764083683" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>            </section>
+
+
+            <ul class="copyright">
+                <li>Сайт сделан Мироновым Арсением</li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <!--[if lte IE 8]>
+    <script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="../assets/js/main.js"></script>
+
+</body>
+</html>
