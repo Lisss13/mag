@@ -27,7 +27,9 @@
                         <p>
                             Приносим свои извенения,
                             <br/> cайт в скором времини будет доделан.
-                            <br/> <br/><br/><br/>
+                            <br/><script type="text/javascript"><!--
+                                document.write(VK.Share.button(false,{type: "link_noicon", text: "Получить скидку 15%"}));
+                                --></script> <br/><br/><br/>
                         </p>
                         <a href="/shop" class="button special fit">Вернуться обратно</a>
                     </section>

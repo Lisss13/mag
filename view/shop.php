@@ -39,16 +39,18 @@
         <h1></h1>
         <ul class="features">
             <li ng-repeat="stick in phones | filter:find">
-                                <span class="image left">
-                                        <img ng-src="{{stick.imgeUrl}}" alt=""/>
-                                </span>
+                <span class="image left">
+                    <img ng-src="{{stick.imgeUrl}}" alt=""  width="250" height="250" />
+                </span>
+
                 <h4> {{ stick.name }} </h4>
+
                 <p> {{ stick.description }} <br/>
                     Размер: {{ stick.size }} <br/>
-                <h4> Цена: {{ stick.prise }} руб.
-                    <script type="text/javascript"><!--
-                        //document.write(VK.Share.button(false,{type: "link_noicon", text: "Получить скидку 15%"}));
-                        --></script>  </h4>
+
+                <strong>
+                    Цена: {{ stick.prise }} руб.
+                </strong>
                 <a href="/shop/{{ stick.age }}" class="button special small fit">Узнать подробней</a></p>
             </li>
         </ul>
