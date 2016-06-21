@@ -15,7 +15,7 @@ sportShop.controller('shopCtrl',['$scope','$http', function($scope, $http) {
 
 sportShop.controller("productCtrl",['$scope','$http', function($scope, $http){
 
-    $http.get('product/shop.json').success(function(data){
+    $http.get('/product/shop.json').success(function(data){
         $scope.description = data;
 
     });
