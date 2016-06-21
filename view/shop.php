@@ -38,7 +38,7 @@
         </section>
         <h1></h1>
         <ul class="features">
-            <li ng-repeat="stick in phones | filter:find">
+            <li ng-repeat="stick in description | filter:find">
                 <span class="image left">
                     <img ng-src="{{stick.imgeUrl}}" alt=""  width="250" height="250" />
                 </span>
