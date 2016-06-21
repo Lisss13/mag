@@ -51,6 +51,9 @@
                 <strong>
                     Цена: {{ stick.prise }} руб.
                 </strong>
+<!--                <form>-->
+<!--                    <input value="Узнать подробней" class="special" type="submit"/ >-->
+<!--                </form>-->
                 <a href="/shop/{{ stick.age }}" class="button special small fit">Узнать подробней</a></p>
             </li>
         </ul>

@@ -78,6 +78,8 @@
                             Так же вы можете отслеживать свою посылку <a href="http://www.russianpost.ru/tracking20/">http://www.russianpost.ru/tracking20/</a>
                         </li>
                     </ul>
+                    <h3>Информация для оптовых покупателей</h3>
+                    <p>По всем вопросам обращайте на почту <u>vectorsporta@mail.ru</u> </p>
                 </section>
             </div>
         </section>

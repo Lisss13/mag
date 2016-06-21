@@ -2422,7 +2422,19 @@
 			}
 
 			.features li:nth-child(10) {
-				background-color: rgba(0, 0, 0, 0.35);
+				background-color: rgba(0, 0, 0, 0.28);
+			}
+			.features li:nth-child(11) {
+				background-color: rgba(0, 0, 0, 0.245);
+			}
+			.features li:nth-child(12) {
+				background-color: rgba(0, 0, 0, 0.21);
+			}
+			.features li:nth-child(13) {
+				 background-color: rgba(0, 0, 0, 0.175);
+			}
+			.features li:nth-child(14) {
+				background-color: rgba(0, 0, 0, 0.14);
 			}
 
 			.features li:before {
