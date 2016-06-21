@@ -13,7 +13,7 @@
     <!-- Put this script tag to the <head> of your page -->
     <script type="text/javascript" src="http://vk.com/js/api/share.js?93" charset="utf-8"></script>
 </head>
-<body class="" ng-controller="shopCtrl">
+<body class="" ng-controller="productCtrl">
 
         <!-- Page Wrapper -->
         <div  id="page-wrapper">
@@ -23,7 +23,7 @@
                     <?php require "view/component/menu2.php"; ?>
 
 
-                    <section ng-init="id = '<?php echo substr($id_poduct,6); ?>'">
+                    <section ng-init="id = '<?php echo substr($_SERVER['PATH_INFO'],6); ?>'">
                         <div class="row">
                             <div class="4u 12u$(medium)" >
                                 <img ng-src="{{description[id - 1].imgeUrl}}" alt=""  width="350" />
