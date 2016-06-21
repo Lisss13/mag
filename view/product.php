@@ -23,7 +23,7 @@
                     <?php require "view/component/menu2.php"; ?>
 
 
-                    <section ng-init="id = '<?php echo substr($_SERVER['PATH_INFO'],6); ?>'">
+                    <section ng-init="id = '<?php echo substr($_SERVER['REQUEST_URI'],6); ?>'">
                         <div class="row">
                             <div class="4u 12u$(medium)" >
                                 <img ng-src="{{description[id - 1].imgeUrl}}" alt=""  width="350" />
@@ -37,7 +37,6 @@
                                 <strong>
                                     Размер: {{description[id - 1].size}} <br/>
                                     Цена: {{description[id - 1].prise}} руб.
-                                    <?php echo substr($_SERVER['PATH_INFO'],6); ?>
                                 </strong>
                                 <div class="row">
                                     <div class="6   u 12u$(medium)">
