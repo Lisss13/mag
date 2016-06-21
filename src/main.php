@@ -18,7 +18,7 @@ $app->get('/article', function(){ require "view/article.php"; });
 for($i=1; $i <= 13; $i++ ){
     $app->get("/shop/{$i}", function(){
         $id_poduct = $_SERVER['PATH_INFO'];
-        require "view/template/product.php";
+        require "view/product.php";
     });
 }
 
