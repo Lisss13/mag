@@ -9,7 +9,7 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css"/><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css"/><![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-    <script src="/assets/js/controllers.js"></script>
+<!--    <script src="/assets/js/controllers.js"></script>-->
     <!-- Put this script tag to the <head> of your page -->
     <script type="text/javascript" src="http://vk.com/js/api/share.js?93" charset="utf-8"></script>
 </head>
