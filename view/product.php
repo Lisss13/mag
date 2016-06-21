@@ -26,9 +26,11 @@
                     <section ng-init="id = '<?php echo substr($_SERVER['PATH_INFO'],6); ?>'">
                         <div class="row">
                             <div class="4u 12u$(medium)" >
+                                <?php echo substr($_SERVER['PATH_INFO'],6); ?>
                                 <img ng-src="{{description[id - 1].imgeUrl}}" alt=""  width="350" />
                             </div>
                             <div class="8u 12u$(medium)">
+                                <?php echo substr($_SERVER['PATH_INFO'],6); ?>
                                 <h2>{{description[id - 1].name}}</h2>
                                 <p>
                                     {{description[id - 1].descriptionFull}}
