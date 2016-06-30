@@ -13,11 +13,16 @@ sportShop.controller('shopCtrl',['$scope','$http', function($scope, $http) {
 
 }]);
 
-sportShop.controller("productCtrl",['$scope','$http', function($scope, $http){
+var sportProduct = angular.module('sportProduct',['ngSanitize']);
+
+sportProduct.controller("productCtrl",['$scope','$http', function($scope, $http){
 
     $http.get('/product/shop.json').success(function(data){
         $scope.description = data;
-
     });
+
+    $scope.maile = function() {
+        $scope.sendMaile = true;
+    }
 
 }]);

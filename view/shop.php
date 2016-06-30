@@ -38,9 +38,9 @@
         </section>
         <h1></h1>
         <ul class="features">
-            <li ng-repeat="stick in description | filter:find">
+            <li ng-repeat="stick in filterDescription = ( description | filter:find)">
                 <span class="image left">
-                    <img ng-src="{{stick.imgeUrl}}" alt=""  width="250" height="250" />
+                    <img ng-src="{{stick.imgeUrl}}" alt=""  width="250" height="300" />
                 </span>
 
                 <h4> {{ stick.name }} </h4>
@@ -57,6 +57,10 @@
                 <a href="/shop/{{ stick.age }}" class="button special small fit">Узнать подробней</a></p>
             </li>
         </ul>
+            <div ng-if="filterDescription.length == 0">
+                <h3>Товар не найден</h3>
+                <strong>Возможно вы допустили ошибку</strong>
+            </div>
         </section>
 
 
