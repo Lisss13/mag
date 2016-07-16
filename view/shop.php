@@ -40,7 +40,7 @@
         <ul class="features">
             <li ng-repeat="stick in filterDescription = ( description | filter:find)">
                 <span class="image left">
-                    <img ng-src="{{stick.imgeUrl}}" alt=""  width="250" height="300" />
+                    <img ng-src="{{stick.imgeUrl}}" alt=""  width="200" height="250" />
                 </span>
 
                 <h4> {{ stick.name }} </h4>

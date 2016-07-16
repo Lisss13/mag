@@ -79,7 +79,7 @@
                         </li>
                     </ul>
                     <h3>Информация для оптовых покупателей</h3>
-                    <p>По всем вопросам обращайте на почту <u>vectorsporta@mail.ru</u> </p>
+                    <p>По всем вопросам обращайтесь на почту <u>vectorsporta@mail.ru</u> </p>
                 </section>
             </div>
         </section>
